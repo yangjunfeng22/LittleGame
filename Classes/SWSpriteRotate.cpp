@@ -30,8 +30,8 @@ void SWSpriteRotate::playInit(const char *fileName,int sprit,int jiaodu){
 void SWSpriteRotate::createAnimate(const char *fileName,int sprit,int jiaodu){
     //创建背景旋转动画
     this->create(fileName);
-    CCActionInterval* rotateBy = CCRotateBy::create(sprit, jiaodu);
-    CCFiniteTimeAction *seq = CCSequence::create(rotateBy,NULL);
-    CCActionInterval* repeatForever =CCRepeatForever::create((CCActionInterval*)seq);
+    ActionInterval* rotateBy = RotateBy::create(sprit, jiaodu);
+    FiniteTimeAction *seq = Sequence::create(rotateBy,NULL);
+    ActionInterval* repeatForever =RepeatForever::create((ActionInterval*)seq);
     this->runAction(repeatForever);
 }
