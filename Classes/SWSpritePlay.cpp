@@ -28,15 +28,15 @@ void SWSpritePlay::playInit(const char *fileName,int allCount,float sprit){
 }
 
 void SWSpritePlay::createAnimate(const char *fileName,int allCount,float sprit){
-    CCAnimation *animation = CCAnimation::create();
-    CCTexture2D *texture = CCTextureCache::sharedTextureCache()->addImage(fileName);
+    Animation *animation = Animation::create();
+    Texture2D *texture = Director::getInstance()->getTextureCache()->addImage(fileName);
     int eachWidth = this->getContentSize().width/allCount;
     for (int i = 0; i<allCount; i++) {
-        animation->addSpriteFrameWithTexture(texture, CCRectMake(i*eachWidth, 0, eachWidth, this->getContentSize().height));
+        animation->addSpriteFrameWithTexture(texture, Rect(i*eachWidth, 0, eachWidth, this->getContentSize().height));
     }
     animation->setDelayPerUnit(sprit);//必须设置否则不会动态播放
     animation->setRestoreOriginalFrame(true);//是否回到第一个
     animation->setLoops(-1);//重复次数
-    CCFiniteTimeAction *animate = CCAnimate::create(animation);
+    FiniteTimeAction *animate = Animate::create(animation);
     this->runAction(animate);
 }
