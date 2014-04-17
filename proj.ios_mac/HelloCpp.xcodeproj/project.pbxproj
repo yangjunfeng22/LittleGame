@@ -25,7 +25,12 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+<<<<<<< HEAD
 		2F08C26E18FE5481006BC6AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F08C26D18FE5481006BC6AA /* StoreKit.framework */; };
+=======
+		2F999F8D18FED37400CBDC6B /* SWGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F999F8B18FED37400CBDC6B /* SWGamePlayer.cpp */; };
+		2F999F8E18FED37400CBDC6B /* SWGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F999F8B18FED37400CBDC6B /* SWGamePlayer.cpp */; };
+>>>>>>> FETCH_HEAD
 		2F9AE7EF18FCFBF400F19930 /* SWMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */; };
 		2F9AE7F018FCFBF400F19930 /* SWMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */; };
 		2F9AE80518FD01AE00F19930 /* ballbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AE7F918FD01AE00F19930 /* ballbg.png */; };
@@ -303,7 +308,12 @@
 		1D6058910D05DD3D006BFB54 /* funnyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funnyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+<<<<<<< HEAD
 		2F08C26D18FE5481006BC6AA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+=======
+		2F999F8B18FED37400CBDC6B /* SWGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWGamePlayer.cpp; path = ../Classes/SWGamePlayer.cpp; sourceTree = "<group>"; };
+		2F999F8C18FED37400CBDC6B /* SWGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWGamePlayer.h; path = ../Classes/SWGamePlayer.h; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWMenu.cpp; path = ../Classes/SWMenu.cpp; sourceTree = "<group>"; };
 		2F9AE7EE18FCFBF400F19930 /* SWMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMenu.h; path = ../Classes/SWMenu.h; sourceTree = "<group>"; };
 		2F9AE7F918FD01AE00F19930 /* ballbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballbg.png; sourceTree = "<group>"; };
@@ -455,6 +465,8 @@
 				2F9AE83D18FD17CD00F19930 /* SWGameMap.h */,
 				2F9AE84018FD26CC00F19930 /* SWGameWorld.cpp */,
 				2F9AE84118FD26CC00F19930 /* SWGameWorld.h */,
+				2F999F8B18FED37400CBDC6B /* SWGamePlayer.cpp */,
+				2F999F8C18FED37400CBDC6B /* SWGamePlayer.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -886,6 +898,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9AE84218FD26CC00F19930 /* SWGameWorld.cpp in Sources */,
+				2F999F8D18FED37400CBDC6B /* SWGamePlayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
@@ -907,6 +920,7 @@
 				2F9AE82218FD0C9B00F19930 /* SWSpritePlay.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				2F9AE84318FD26CC00F19930 /* SWGameWorld.cpp in Sources */,
+				2F999F8E18FED37400CBDC6B /* SWGamePlayer.cpp in Sources */,
 				2F9AE7F018FCFBF400F19930 /* SWMenu.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				2F9AE83F18FD17CD00F19930 /* SWGameMap.cpp in Sources */,
