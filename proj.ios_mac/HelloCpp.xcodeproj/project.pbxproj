@@ -25,6 +25,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2F08C26E18FE5481006BC6AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F08C26D18FE5481006BC6AA /* StoreKit.framework */; };
 		2F9AE7EF18FCFBF400F19930 /* SWMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */; };
 		2F9AE7F018FCFBF400F19930 /* SWMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */; };
 		2F9AE80518FD01AE00F19930 /* ballbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AE7F918FD01AE00F19930 /* ballbg.png */; };
@@ -299,9 +300,10 @@
 		1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
 		1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* HelloCpp iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCpp iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* funnyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funnyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F08C26D18FE5481006BC6AA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		2F9AE7ED18FCFBF400F19930 /* SWMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWMenu.cpp; path = ../Classes/SWMenu.cpp; sourceTree = "<group>"; };
 		2F9AE7EE18FCFBF400F19930 /* SWMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMenu.h; path = ../Classes/SWMenu.h; sourceTree = "<group>"; };
 		2F9AE7F918FD01AE00F19930 /* ballbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballbg.png; sourceTree = "<group>"; };
@@ -376,6 +378,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F08C26E18FE5481006BC6AA /* StoreKit.framework in Frameworks */,
 				1AC6FB2E180E99EB004C840B /* libbox2d iOS.a in Frameworks */,
 				1AC6FB2F180E99EB004C840B /* libchipmunk iOS.a in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */,
@@ -460,7 +463,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* HelloCpp iOS.app */,
+				1D6058910D05DD3D006BFB54 /* funnyGame.app */,
 				5087E76F17EB910900C73F5D /* HelloCpp Mac.app */,
 			);
 			name = Products;
@@ -504,6 +507,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F08C26D18FE5481006BC6AA /* StoreKit.framework */,
 				D6B0611A1803AB670077942B /* CoreMotion.framework */,
 				503AE11A17EB9C5A00D1A890 /* IOKit.framework */,
 				503AE11117EB99EE00D1A890 /* libcurl.dylib */,
@@ -635,7 +639,7 @@
 			);
 			name = "HelloCpp iOS";
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* HelloCpp iOS.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* funnyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5087E73D17EB910900C73F5D /* HelloCpp Mac */ = {
@@ -669,7 +673,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = MDDB52YB8L;
+						DevelopmentTeam = R746ZWWAP4;
 					};
 				};
 			};
@@ -990,6 +994,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = funnyGame;
 				PROVISIONING_PROFILE = "53C273B4-9166-4353-A964-AB9A655086F3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1020,6 +1025,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = funnyGame;
 				PROVISIONING_PROFILE = "53C273B4-9166-4353-A964-AB9A655086F3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
